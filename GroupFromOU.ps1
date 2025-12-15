@@ -1,14 +1,16 @@
+#This script 
+
 Import-Module ActiveDirectory
 
 # variables
 $Credential = (Get-Credential)
-$server = "SRVDC01.AKSOR.HD"
+$server = ""
 
 
 
 # Define the OU path and the group name
-$OU = "OU=Users,OU=USA,DC=AKSOR,DC=HD"
-$GroupName = "SDP-USA"
+$OU = "OU=,OU=,DC=,DC="
+$GroupName = ""
 
 # Get all users from the specified OU
 $Users = Get-ADUser -Server $server -Credential $credential -SearchBase $OU -Filter *
