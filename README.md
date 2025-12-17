@@ -3,9 +3,10 @@ This repo is a collection of ready to use entra scripts that are useful on a dai
 
 ## HOW TO USE 
 
-You can launch the scripts from Powershell ISE or any IDE with a powershell terminal. 
-Once launch you will need to log in with your admin credentials.
-Resulsts are often displayed as json.
+Depending on the type, you can launch the scripts from Intune, Powershell ISE or any IDE with a powershell terminal.
+If it's a Remediation scripts, you can upload it in your tenant.
+
+If there are resulsts, they are displayed as json.
 
 ### Wi-Fi Connectivity & Profile Reset
 
