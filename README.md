@@ -6,7 +6,7 @@ This repo is a collection of ready to use entra scripts that are useful on a dai
 Depending on the type, you can launch the scripts from Intune, Powershell ISE or any IDE with a powershell terminal.
 If it's a Remediation scripts, you can upload it in your tenant.
 
-If there are resulsts, they are displayed as json.
+If the script is generating a file, it will be a .json
 
 ### Wi-Fi Connectivity & Profile Reset
 
@@ -21,3 +21,7 @@ This package monitors disk capacity and proactively frees up space by removing u
 
 *   **Detection Script**: Evaluates two conditions: if the system drive (C:) has less than **20% free space** AND if there are user profiles inactive for more than **60 days**. The remediation triggers only when *both* conditions are met to avoid unnecessary deletions.
 *   **Remediation Script**: Identifies specific user profiles matching the inactivity criteria (excluding system/special accounts or currently loaded profiles) and permanently removes them via WMI to reclaim disk space.
+
+### Intune device inventory
+
+This script help you get a device inventory will all parameters that you have in your portal.
